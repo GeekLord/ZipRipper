@@ -28,7 +28,8 @@ If you have questions, head on over to <a href="https://github.com/illsk1lls/Zip
 nVidia "GeForce", "Quadro", "A Series", "RTX Ada" and AMD "Radeon RX", "Radeon Pro" cards<br>
 
 **All GPU users:** Ensure you have the latest GPU drivers installed.<br>
-**AMD GPU users:** For GPU support the script will offer to enable OpenCL on your system if the dependencies are not present.. Otherwise you may need to use <a href="https://github.com/illsk1lls/ZipRipper/blob/main/.resources/FixOpenCLforAMD.bat">the script located in the .resources folder</a> to enable OpenCL on your system.<br>
+**AMD GPU users:** Radeon support is EXPERIMENTAL - For GPU support you can try the following <a href="https://github.com/ptrumpis/OpenCL-AMD-GPU">OpenCL fix</a> if needed<br>
+**INTEL GPU users:** ARC support is EXPERIMENTAL - You may need to install OpenCL.dll with Intel's ICD Loader if they are not automatically present after driver installation. <a href="https://github.com/KhronosGroup/OpenCL-ICD-Loader">https://github.com/KhronosGroup/OpenCL-ICD-Loader</a>
 
 **ZipRipper is portable, there are two different running modes; Online Mode, and Offline mode...**<br>
 
